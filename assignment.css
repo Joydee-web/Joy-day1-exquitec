@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+}
+#p1{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+#p1 img{
+    width: 120px;
+    height: 120px;
+    border-radius: 100px;
+}
+#p1 p{
+    color: gold;
+}
+#skills{
+    justify-self: center;
+    text-align: center;
+    background-color: purple;
+}
+#p2{
+    background-color: white;
+    color: black;
+    text-align: center;
+}
+#q1{
+    color: purple;
+}
+#q2{
+    background-color: purple;
+    color: white;
+}
+#snacks{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    margin: 20px;
+    padding: 2%;
+}
+#snacks img{
+    width: 30%;
+    border:5px solid purple;
+}
+#snackss{
+    border: 5px solid black !important;
+}
