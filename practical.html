@@ -28,9 +28,9 @@
 <body>
     <form>
         <label for="Fname">First_name</label><br>
-    <input type="text" name="first_name"><br>
+    <input type="text" id="fname" name="first_name" value="joy"><br>
     <label for="Lname">Last_name</label><br>
-    <input type="text" name="last_name"><br>
+    <input type="text" id="lname" name="last_name" value="olupayimo"><br>
     <label for="DOB">Date_of_birth</label><br>
     <input type="number" name="Date_of_birth"><br>
     <label for="Favorite_color">Favorite_color</label><br>
@@ -39,7 +39,63 @@
     <input type="text" name="email"><br>
     <label for="Password">Password</label><br>
     <input type="text" name="Password"><br>
-    <input type="submit" value="submit">
+    <input type="submit" value="submit"> 
     </form>
+    <label for="cars">choose a car:</label>
+    <select id="cars" name="cars" size="4" multiple>
+        <option value="volvo">Volvo</option>
+        <option value="saab">Saab</option>
+        <option value="fiat">Fiat</option>
+        <option value="audi">Audi</option>
+    </select>
+    <textarea name="message" rows="10" cols="30">
+        The cat was playing in the garden.
+    </textarea>
+    <button type="button" onclick="alert('Hello World!')">Click Me!</button>
+    <form action="/action_page.php">
+        <fieldset>
+          <legend>Personalia:</legend>
+          <label for="fname">First name:</label><br>
+          <input type="text" id="fname" name="fname" value="John"><br>
+          <label for="lname">Last name:</label><br>
+          <input type="text" id="lname" name="lname" value="Doe"><br><br>
+          <input type="submit" value="Submit">
+        </fieldset>
+      </form>
+      <form action="/action_page.php">
+        <input list="browsers">
+        <datalist id="browsers">
+          <option value="Edge">
+          <option value="Firefox">
+          <option value="Chrome">
+          <option value="Opera">
+          <option value="Safari">
+        </datalist>
+      </form>
+      <form action="/action_page.php"
+  oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+  0
+  <input type="range"  id="a" name="a" value="50">
+  100 +
+  <input type="number" id="b" name="b" value="50">
+  =
+  <output name="x" for="a b"></output>
+  <br><br>
+  <input type="submit">
+</form>
+<form>
+    <label for="fname">First name:</label><br>
+    <input type="text" id="fname" name="fname"><br>
+    <label for="lname">Last name:</label><br>
+    <input type="text" id="lname" name="lname">
+  </form>
+  <form>
+    <label for="username">Username:</label><br>
+    <input type="text" id="username" name="username"><br>
+    <label for="pwd">Password:</label><br>
+    <input type="password" id="pwd" name="pwd">
+  </form>
+ 
+  </form>
 </body>
 </html>
