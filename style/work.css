@@ -1,0 +1,109 @@
+#whole{
+    width: 20cm;
+    height: 200cm;
+    margin-left: 40cm;
+    margin-top: 5cm;
+}
+#logotop{
+    background-color: white;
+    margin-top: 10px;
+    clear: both;
+}
+.middle{
+background-color: black;
+}
+
+#banner{
+    background-color: black;
+    margin-bottom: 40px;
+    margin: 100px;
+}
+
+#banner imh{
+    margin: 100px 100cm 10px 1cm
+}
+.first{
+        background-color:rgb(173, 37, 37) ; 
+    padding-top: 4px;
+    border-radius: 100px;
+
+}
+.first img{
+
+    width: 50px;
+    height: 50px;
+    border: 3px solid none;
+    border-radius: 50%;
+    margin-left: 30px;
+    margin-top: 20px;
+    border-radius: 50px;
+
+}
+
+.first p{
+    color: white;
+    width: 600px;
+    margin-left: 30px;
+    width: 700px;
+}
+.second{
+    background-color: rgb(44, 121, 121);
+    margin-top: 10px;
+    border-radius: 100px;
+    clear: both;
+}
+.second img{
+    width: 50px;
+    height: 50px;
+    border: 3px solid none;
+    margin-top: 30PX;
+    margin-left: 30PX;
+    border-radius: 50px;
+}
+.second p{
+    color: gold;
+    margin-left: 40px;
+
+
+
+}
+.third{
+    background-color: chocolate;
+    border-radius: 100px;
+    clear: both;
+}
+.third img{
+    width: 50px;
+    height: 50px;
+    border: 3px solid none;
+    border-radius: 50%;
+    margin-left: 30px;
+    margin-top: 30px;
+    border-radius: 50px;
+}
+.third p{
+    margin-left: 50px;
+    color: blue;
+}
+
+.fourth{
+    background-color: darkseagreen;
+    border-radius: 200px;
+    clear: both;
+}
+.fourth img{
+    width: 50px;
+    height: 50px;
+    border: 3px solid none;
+    border-radius: 50%;
+    margin-left: 30px;
+    margin-top: 30px;
+    border-radius: 50px;
+}
+.fourth p{
+margin-left: 40.5px;
+color: gold;
+}
+.bottom{
+    background-color: white;
+}
