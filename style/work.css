@@ -1,13 +1,11 @@
 #whole{
-    width: 20cm;
-    height: 200cm;
-    margin-left: 40cm;
-    margin-top: 5cm;
+    max-width: 50%;
+    margin: auto;
 }
 #logotop{
     background-color: white;
-    margin-top: 10px;
-    clear: both;
+    /* clear: both; */
+    margin: 20px 10px 0px 10px;
 }
 .middle{
 background-color: black;
@@ -16,94 +14,48 @@ background-color: black;
 #banner{
     background-color: black;
     margin-bottom: 40px;
-    margin: 100px;
+    /* margin: 100px; */
 }
-
-#banner imh{
-    margin: 100px 100cm 10px 1cm
+#banner img{
+    background-size: cover;
+    width: 100%;
+    height: 50vh;
 }
 .first{
-        background-color:rgb(173, 37, 37) ; 
-    padding-top: 4px;
+    background-color: blue;
+    display: flex;
+    text-align: center;
+    margin: 3%;
     border-radius: 100px;
-
+    padding: 2%;
 }
 .first img{
-
-    width: 50px;
-    height: 50px;
-    border: 3px solid none;
-    border-radius: 50%;
-    margin-left: 30px;
-    margin-top: 20px;
+    height: 100px;
+    width: 100px;
     border-radius: 50px;
-
 }
-
 .first p{
     color: white;
-    width: 600px;
-    margin-left: 30px;
-    width: 700px;
 }
-.second{
-    background-color: rgb(44, 121, 121);
-    margin-top: 10px;
-    border-radius: 100px;
-    clear: both;
+#first_1{
+    background-color: red;
+    color: white;
 }
-.second img{
-    width: 50px;
-    height: 50px;
-    border: 3px solid none;
-    margin-top: 30PX;
-    margin-left: 30PX;
-    border-radius: 50px;
-}
-.second p{
+#first_2{
+    background-color: rgb(57, 181, 244);
     color: gold;
-    margin-left: 40px;
-
-
-
 }
-.third{
-    background-color: chocolate;
-    border-radius: 100px;
-    clear: both;
-}
-.third img{
-    width: 50px;
-    height: 50px;
-    border: 3px solid none;
-    border-radius: 50%;
-    margin-left: 30px;
-    margin-top: 30px;
-    border-radius: 50px;
-}
-.third p{
-    margin-left: 50px;
+#first_3{
+    background-color: rgb(6, 142, 92);
     color: blue;
 }
-
-.fourth{
-    background-color: darkseagreen;
-    border-radius: 200px;
-    clear: both;
-}
-.fourth img{
-    width: 50px;
-    height: 50px;
-    border: 3px solid none;
-    border-radius: 50%;
-    margin-left: 30px;
-    margin-top: 30px;
-    border-radius: 50px;
-}
-.fourth p{
-margin-left: 40.5px;
-color: gold;
+#first_4{
+    background-color: rgb(255, 119, 0);
+    color: gold;
 }
 .bottom{
     background-color: white;
+}
+.bottom p{
+    text-align: center;
 }
