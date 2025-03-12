@@ -1,0 +1,14 @@
+    .post{
+        position:static;
+        left: 34;
+        background-color: brown;
+        width: 300px;
+    }
+
+    .mother{
+        position: relative;
+        right: 34;
+        width: 400px;
+        height: 200px;
+        background-color: blue;
+    }
