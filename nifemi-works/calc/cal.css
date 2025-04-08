@@ -1,0 +1,61 @@
+* {
+    margin:  0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.calc {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin-top: 50px;
+    max-width: max-content;
+}
+
+.displayInput {
+    border: none;
+    border-bottom: 1px solid blue;
+    border-top: 1px solid blue;
+    padding: 10px 0;
+    width: 100%;
+    background: none;
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+    text-align: end;
+    text-transform: uppercase;
+}
+
+.fadedDisplay {
+    color: gray;
+    background: none;
+    border: none;
+    text-align: end;
+    width: 100%;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 0fr);
+    gap: 40px;
+}
+
+.buttons button {
+    border-radius: 50%;
+    max-width: max-content;
+    width: 20px;
+    height: 20px;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid purple;
+    background-color: aqua;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" type="text/css" href="./cal.css" />
+</head>
+<body>
+    <div class="calc" oninput="return equalTwo()">
+        <input type="text" class="displayInput" id="display" autofocus disabled />
+        <input type="text" class="fadedDisplay" id="display-two" disabled />
+        <div class="buttons">
+            <button onclick="return clearDisplay()">C</button>
+            <button onclick="return deleteOne()">D</button>
+            <!-- <button onclick="return plusMinus()">+/-</button> -->
+            <button onclick="return enterDisplay('.')">.</button>
+            <button onclick="return enterDisplay('*')">x</button>
+            <button onclick="return enterDisplay('1')">1</button>
+            <button onclick="return enterDisplay('2')">2</button>
+            <button onclick="return enterDisplay('3')">3</button>
+            <button onclick="return enterDisplay('/')">/</button>
+            <button onclick="return enterDisplay('4')">4</button>
+            <button onclick="return enterDisplay('5')">5</button>
+            <button onclick="return enterDisplay('6')">6</button>
+            <button onclick="return enterDisplay('+')">+</button>
+            <button onclick="return enterDisplay('7')">7</button>
+            <button onclick="return enterDisplay('8')">8</button>
+            <button onclick="return enterDisplay('9')">9</button>
+            <button onclick="return enterDisplay('-')">-</button>
+            <button onclick="return leftBracket()">(</button>
+            <button onclick="return rightBracket()">)</button>
+            <!-- <button onclick="return enterDisplay('/100')">%</button> -->
+            <button onclick="return enterDisplay('0')">0</button>
+            <button onclick="return equalTo()" class="submit" id="submit">=</button>
+        </div>
+    </div>
+    <script src="./cal.js"></script>
+</body>
+</html>
